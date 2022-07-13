@@ -5,6 +5,7 @@ import About from './About';
 import Footer from './Footer';
 
 function Home() {
+  document.title = 'Plants Zone'
   return (
     <>
     <Header></Header>

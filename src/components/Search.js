@@ -7,6 +7,8 @@ import {Button,Container,Form,Nav,Navbar,Card,CardGroup} from 'react-bootstrap';
 
 
 function Header() {
+  document.title = 'Plants Zone | Categories'
+
     const [names, setNames] = useState('');
     const arr = PlantsData.data.plant;
     const [found, setFound] = useState(arr);
