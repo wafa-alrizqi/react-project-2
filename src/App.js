@@ -10,12 +10,8 @@ function App() {
     <>
     <Router>
       <Routes>
-        <Route exact path='/'>
-          <Home /> 
-        </Route>
-        <Route path='/Search'>
-          <Search />
-        </Route>
+        <Route path='/react-project-2' exact element={<Home />} ></Route>
+        <Route path='/Search' exact element={<Search />}></Route>
       </Routes>
     </Router>
     </>
