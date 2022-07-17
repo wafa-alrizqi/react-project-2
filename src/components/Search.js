@@ -22,7 +22,7 @@ function Header() {
     <div className='header1'>
       <Navbar bg="light" expand="lg">
         <Container>
-          <Navbar.Brand href='/'>Plants Zone</Navbar.Brand>
+          <Navbar.Brand href='/react-project-2'>Plants Zone</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">

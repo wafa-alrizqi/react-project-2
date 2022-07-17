@@ -9,7 +9,7 @@ function Header() {
   <>
     <Navbar bg="light" variant="light">
       <Container>
-        <Navbar.Brand href='/'>Plants Zone</Navbar.Brand>
+        <Navbar.Brand href='/react-project-2'>Plants Zone</Navbar.Brand>
         <Nav className="me-auto">
           <Nav.Link href="/Search">Search</Nav.Link>
 

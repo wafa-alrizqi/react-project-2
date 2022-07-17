@@ -4,13 +4,18 @@ import Search from './components/Search'
 import Home from "./components/Home";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+
 function App() {
   return (
     <>
     <Router>
       <Routes>
-        <Route path='/' exact element={<Home />} ></Route>
-        <Route path='/Search' exact element={<Search />}></Route>
+        <Route exact path='/'>
+          <Home /> 
+        </Route>
+        <Route path='/Search'>
+          <Search />
+        </Route>
       </Routes>
     </Router>
     </>
